@@ -1,5 +1,5 @@
 export const managerData = [
-    3910, 3706, 2850, 4005, 3750, 2912, 3200, 3645, 4205, 3211, 3354, 3904
+    3910, 3706, 2850, 4005, 3750, 4912, 3200, 3645, 4205, 3211, 3354, 3904
 ];
 
 export const nationalAverageData = [
@@ -27,7 +27,7 @@ export const quarterLabels = ["Week 1", "Week 2", "Week 3", "Week 4", "Week 5", 
 //---More Complex Dataset---//
 
 export const districtManagerData = [
-    { sum: 13100, newarkBranch: 4500, austinBranch: 3700, denverBranch: 4900 },
+    { sum: 13100, newarkBranch: 4800, austinBranch: 3700, denverBranch: 4900 },
     { sum: 12500, newarkBranch: 3900, austinBranch: 3700, denverBranch: 4900 },
     { sum: 12050, newarkBranch: 3450, austinBranch: 3700, denverBranch: 4900 },
     { sum: 13200, newarkBranch: 4600, austinBranch: 3700, denverBranch: 4900 },

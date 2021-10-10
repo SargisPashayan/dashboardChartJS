@@ -1,13 +1,14 @@
 import React, { Component } from 'react';
-import { Chart } from "chart.js";
+import { Chart, registerables } from "chart.js";
 import classes from "./LineGraph.module.css";
 
+Chart.register(...registerables);
 
 let myLineChart;
 
 //--Chart Style Options--//
-Chart.defaults.global.defaultFontFamily = "'PT Sans', sans-serif"
-Chart.defaults.global.legend.display = false;
+//Chart.defaults.global.defaultFontFamily = "`PT Sans`, sans-serif"
+//Chart.defaults.global.legend.display = false;
 //--Chart Style Options--//
 
 export default class LineGraph extends Component {
