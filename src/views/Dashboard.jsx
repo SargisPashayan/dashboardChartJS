@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import classes from "./Dashboard.module.css";
 import LineGraph from "../components/LineGraph/LineGraph";
-//import chartIcon from "../../assets/chart-icon.svg";
 import { managerData, nationalAverageData, yearLabels, managerQuarterData, nationalAverageQuarterData, quarterLabels } from "../mockData";
 
 export default class Dashboard extends Component {
@@ -31,7 +30,6 @@ export default class Dashboard extends Component {
         return (
             <div className={classes.container}>
                 <header>
-                    {/* <img src={chartIcon} alt="bar chart icon" /> */}
                     <h1>Sales Dashboard</h1>
                 </header>
 

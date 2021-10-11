@@ -7,7 +7,7 @@ Chart.register(...registerables);
 let myLineChart;
 
 //--Chart Style Options--//
-//Chart.defaults.global.defaultFontFamily = "`PT Sans`, sans-serif"
+//Chart.defaults.global.defaultFontFamily = "`PT Sans`, sans-serif";
 //Chart.defaults.global.legend.display = false;
 //--Chart Style Options--//
 
@@ -31,25 +31,24 @@ export default class LineGraph extends Component {
         myLineChart = new Chart(myChartRef, {
             type: "line",
             data: {
-                //Bring in data
                 labels: labels,
                 datasets: [
                     {
                         label: "Sales",
                         data: data,
                         fill: false,
-                        borderColor: "#6610f2"
+                        borderColor: "#1410f2"
                     },
                     {
                         label: "National Average",
                         data: average,
                         fill: false,
-                        borderColor: "#E0E0E0"
+                        borderColor: "#f21010"
                     }
                 ]
             },
             options: {
-                //Customize chart options
+                
             }
         });
 
